@@ -1,0 +1,53 @@
+import React from 'react';
+import cloud from '../assets/cloud.jpg';
+import construction from '../assets/construction.jpg';
+import food from '../assets/food.jpg';
+import IT from '../assets/IT.jpg';
+
+const Article = ({ imgUrl, title, summary }) => {
+    return (
+      <div>
+        <div>
+          <img className='mb-8' src={imgUrl} alt='blog' />
+        </div>
+        <div>
+          <div>
+            <h3 className='font-bold uppercase my-5 text-[16px]'>{title}</h3>
+            <p>{summary}</p>
+          </div>
+        </div>
+      </div>
+    )
+}
+
+const Services = () => {
+  return (
+    <div className='h-'>
+        <div className='bg-[#6b9122] h-40 grid justify-center flex-col content-center text-center text-[#d0d2d3] leading-loose'>
+        <h1 className='text-2xl uppercase  font-bold'>Our Services</h1>
+        <h2 className='text-base capitalize font-medium'>What we provide</h2>
+        </div>
+
+        <div className='grid md:grid-cols-4 sm:grid-cols-2 justify-items-center mx-12 mt-16 gap-8'>
+            <div className=''>
+                <Article imgUrl={IT} title='Managed IT Service' summary='Let Africk Solutions assume the operational tasks needed to ensure your infrastructure remains stable and secure. As an effective extension of your team, Africk Limited will manage your all IT assets for optimal business productivity. {"\n"}'   />
+            </div>
+
+            <div>
+                <Article imgUrl={cloud} title='Security Solutions' summary='Get 100% protection for your business as we provide Security Audits, Forensics, Rapid Response and Remediation, Training and Awareness.' />
+            </div>
+
+            <div>
+                <Article imgUrl={construction} title='Procurement of Construction equipment.' summary='Our primary objective is to provide quality construction materials and equipment that truly adds value.   Because it is our mandate to help construction companies deliver the best of every project, we have the best construction materials and equipment which include but not limited to:' />
+            </div>
+
+            <div>
+                <Article imgUrl={food} title="Africa's food products supply" summary="Finding quality and affordable food items can be overwhelming sometimes. Africk makes sourcing, payments and delivery of these products easier for our customers." />
+            </div>
+        </div>
+
+    </div>
+  )
+}
+
+export default Services
