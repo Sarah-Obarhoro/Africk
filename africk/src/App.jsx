@@ -9,6 +9,7 @@ import Whyus from './components/Whyus';
 import Partners from './components/Partners';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Partners />
       <Services />
       <Contact />
+      <Footer />
     </div>
   )
 }

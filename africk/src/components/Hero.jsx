@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero' id='home'>
       <div className='hero-overlay flex justify-center items-center mb-4'>
         <p className='md:text-7xl sm:text-4xl text-2xl font-bold md:py-6'>Welcome to Africk</p>
         <p className='md:text-2xl sm:text-sm text-sm font-bold md:py-6'> Your one-stop solution for all your

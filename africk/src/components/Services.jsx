@@ -28,20 +28,20 @@ const Services = () => {
         <h2 className='text-base capitalize font-medium'>What we provide</h2>
         </div>
 
-        <div className='grid md:grid-cols-4 sm:grid-cols-2 justify-items-center mx-12 mt-16 gap-8'>
-            <div className=''>
-                <Article imgUrl={IT} title='Managed IT Service' summary='Let Africk Solutions assume the operational tasks needed to ensure your infrastructure remains stable and secure. As an effective extension of your team, Africk Limited will manage your all IT assets for optimal business productivity. {"\n"}'   />
+        <div className='grid md:grid-cols-4 sm:grid-cols-2 justify-items-center mx-12 my-20 gap-8' id='services'>
+            <div className='' style={{whiteSpace: "pre-line"}}>
+                <Article imgUrl={IT} title='Managed ICT Service' summary={'Let Africk Solutions assume the operational tasks needed to ensure your infrastructure remains stable and secure. As an effective extension of your team, Africk Limited will manage your all IT services for optimal business productivity. \n  \n ICT services we provide include: Cloud Sloutions, IT Outsourcing and Hardware Procurement. \n'}   />
             </div>
 
-            <div>
-                <Article imgUrl={cloud} title='Security Solutions' summary='Get 100% protection for your business as we provide Security Audits, Forensics, Rapid Response and Remediation, Training and Awareness.' />
+            <div style={{whiteSpace: "pre-line"}}>
+                <Article imgUrl={cloud} title='Security Solutions' summary={'Get 100% protection for your business as we provide Security Audits, Forensics, Rapid Response and Remediation, Training and Awareness. \n \n Africk Solutions offers Cloud and Mobile Security, Perimeter Security and Infrastructure Security. \n'} />
             </div>
 
-            <div>
-                <Article imgUrl={construction} title='Procurement of Construction equipment.' summary='Our primary objective is to provide quality construction materials and equipment that truly adds value.   Because it is our mandate to help construction companies deliver the best of every project, we have the best construction materials and equipment which include but not limited to:' />
+            <div style={{whiteSpace: "pre-line"}}>
+                <Article imgUrl={construction} title='Procurement of Construction equipment.' summary={'Our primary objective is to provide quality construction materials and equipment that truly adds value.   Because it is our mandate to help construction companies deliver the best of every project, we have the best construction materials and equipment which include but are not limited to; Scaffolding materials, Plumbing materials, and Bolts, nuts and washers.'} />
             </div>
 
-            <div>
+            <div style={{whiteSpace: "pre-line"}}>
                 <Article imgUrl={food} title="Africa's food products supply" summary="Finding quality and affordable food items can be overwhelming sometimes. Africk makes sourcing, payments and delivery of these products easier for our customers." />
             </div>
         </div>
