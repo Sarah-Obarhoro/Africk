@@ -9,7 +9,7 @@ const Hero = () => {
         <p className='md:text-2xl sm:text-sm text-sm font-bold md:py-6'> Your one-stop solution for all your
           <Typed className='md:text-2xl sm:text-sm text-sm font-bold md:py-6 uppercase pl-2'strings={['ICT', 'Construction', 'Agriculture']} typeSpeed={50} backSpeed={60} loop /> needs.
         </p>
-       <button className='rounded-full bg-[#6b9122] p-2 px-4 mt-16'>Learn More</button>
+       <button className='rounded bg-[#6b9122] py-2 px-6 mt-16'>Learn More</button>
       </div>
     </div>
   )
