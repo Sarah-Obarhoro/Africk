@@ -20,7 +20,7 @@ function Navbar() {
         <li className='p-4 mt-3 cursor-pointer'><a href='#partners'>Partners</a></li>
         <li className='p-4 mt-3 cursor-pointer'><a href='#services'>Services</a></li>
         <li className='p-4 mt-3 cursor-pointer'><a href='#careers'>Careers</a></li>
-        <li className='p-4'><a href='#contact'><button className='bg-[#6b9122] text-[#d0d2d3] rounded px-6 py-2 uppercase'>Get In Touch</button></a></li>
+        <li className='p-4 cursor-pointer'><a href='#contact'><button className='bg-[#6b9122] text-[#d0d2d3] rounded px-6 py-2 uppercase'>Get In Touch</button></a></li>
       </ul>
 
       <div onClick={handleNav} className='block md:hidden'>
@@ -31,12 +31,12 @@ function Navbar() {
       <img className='h-20 m-4' src={logo} alt="logo" />
 
         <ul className='uppercase p-4'>
-        <li className='p-4 border-b border-[#6b9122]'>Home</li>
-        <li className='p-4 border-b border-[#6b9122]'>About</li>
-        <li className='p-4 border-b border-[#6b9122]'>Partners</li>
-        <li className='p-4 border-b border-[#6b9122]'>Services</li>
-        <li className='p-4 border-b border-[#6b9122]'>Careers</li>
-        <li className='p-4'><button className='bg-[#6b9122] text-[#d0d2d3] rounded px-6 py-2 uppercase'>Get In Touch</button></li>
+        <li className='p-4  cursor-pointer border-b border-[#6b9122]'> <a href="#home"> Home </a></li>
+        <li className='p-4  cursor-pointer border-b border-[#6b9122]'> <a href="#about"> About </a></li >
+        <li className='p-4  cursor-pointer border-b border-[#6b9122]'> <a href="#partners"> Partners </a></li>
+        <li className='p-4  cursor-pointer border-b border-[#6b9122]'> <a href="#services"> Services </a></li>
+        <li className='p-4  cursor-pointer border-b border-[#6b9122]'> <a href="#careers"> Careers </a></li>
+        <li className='p-4 cursor-pointer '><a href="#contact"><button className='bg-[#6b9122] text-[#d0d2d3] rounded px-6 py-2 uppercase'>Get In Touch</button></a></li>
         </ul>
       </div>
     </div>
