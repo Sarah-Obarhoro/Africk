@@ -11,7 +11,7 @@ function Navbar() {
   }
 
   return (
-    <div className='font-bold flex sticky top-0 justify-between items-center h-20 max-w-[1240px] mx-auto uppercase px-4 body-font font-montserrat'>
+    <div className='navbar font-bold fixed w-[100%] bg-[#d0d2d3] top-0 flex justify-between items-center h-20 mx-auto uppercase px-4 body-font font-montserrat'>
       <img className='h-20' src={logo} alt="logo" />
 
       <ul className='hidden md:flex sticky top-0'>

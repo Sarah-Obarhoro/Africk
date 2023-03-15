@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='bg-[#6b9122] grid sm:grid-cols-4 gap-4 sm:justify-items-center py-10 px-6 sm:py-40 sm:px-20'>
             <img className='w-36' src={logo} alt='logo' />
 
-            <div className=''>
+            <div className='sm:grid-cols-2'>
             <h4 className='font-bold uppercase mb-4'>Company</h4>
             <p className='cursor-pointer'> Services</p>
             <p className='cursor'>Partners</p>

@@ -25,7 +25,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-3 sm:grid-cols-1 mx-20 mt-20 gap-10">
+      <div className="grid md:grid-cols-3 sm:grid-cols-1 mr-20 ml-10 mt-20 gap-10">
         <div className="col-span-2">
         <form className="w-full" action="mailto:Info@africktech.com" method="post" onSubmit={handleSubmit}>
           <div className="flex flex-wrap -mx-3 mb-6">

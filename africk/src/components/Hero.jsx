@@ -4,12 +4,12 @@ import Typed from 'react-typed';
 const Hero = () => {
   return (
     <div className='hero' id='home'>
-      <div className='hero-overlay flex justify-center items-center mb-4'>
+      <div className='hero-overlay flex justify-center items-center mb-4 pt-24'>
         <p className='md:text-7xl sm:text-4xl text-2xl font-bold md:py-6'>Welcome to Africk</p>
         <p className='md:text-2xl sm:text-sm text-sm font-bold md:py-6'> Your one-stop solution for all your
           <Typed className='md:text-2xl sm:text-sm text-sm font-bold md:py-6 uppercase pl-2'strings={['ICT', 'Construction', 'Agriculture']} typeSpeed={50} backSpeed={60} loop /> needs.
         </p>
-       <button className='bg-[#6b9122] text-[#d0d2d3] rounded px-6 py-2 uppercase mt-16'>Learn More</button>
+       <button className='bg-[#6b9122] text-[#d0d2d3] rounded px-6 py-2 uppercase mt-16'> <a href="#about">Learn More</a></button>
       </div>
     </div>
   )

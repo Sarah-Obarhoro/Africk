@@ -30,6 +30,29 @@ body{
     color: #fff;
 }
 
+@media only screen and (min-width: 300px) {
+    .hero {
+    background: url('./assets/hero-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    }
+
+    .hero-overlay{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    }
+}
+
+
 .whyus{
     background: url('./assets/why-us.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -46,6 +69,26 @@ body{
     text-align: center;
     flex-direction: column;
     color: #fff;
+}
+
+@media only screen and (min-width: 300px) {
+    .whyus {
+    background: url('./assets/why-us.jpg') no-repeat center center fixed;
+    background-size: cover;
+    }
+
+    .whyus-overlay{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: rgba(107, 145, 34, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    }
 }
 
 .contact{
@@ -66,6 +109,25 @@ body{
     color: #fff;
 }
 
+@media only screen and (min-width: 300px) {
+    .contact{
+    background: url('./assets/contact.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 20vh;
+}
+
+.contact-overlay{
+    width: 100%;
+    height: 20vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    }
+}
 .label{
     resize: none;
 }
