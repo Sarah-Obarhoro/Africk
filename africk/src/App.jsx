@@ -13,17 +13,18 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
-      <Navbar />
-      <Hero />
-      <About />
-      <Whyus />
-      <Partners />
-      <Services />
-      <Contact />
-      <Footer />
-    </div>
+      <div className='bg-primary w-full overflow-hidden'>
+        <Navbar />
+        <Hero />
+        <About />
+        <Whyus />
+        <Partners />
+        <Services />
+        <Contact />
+        <Footer />
+      </div>
   )
 }
+
 
 export default App
